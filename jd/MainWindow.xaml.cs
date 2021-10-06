@@ -24,5 +24,10 @@ namespace jd
         {
             InitializeComponent();
         }
+
+        private void mnuNew_Click(object sender, RoutedEventArgs e)
+        {
+            MessageBox.Show("Nowy");
+        }
     }
 }
